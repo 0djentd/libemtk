@@ -1,4 +1,4 @@
-EMTK, ExtendedModifiersToolKit.
+EMTK, Extended Modifiers Tool Kit.
 =======================================
 
 This library provides new level of abstraction for _Blender_ modifiers stack.
