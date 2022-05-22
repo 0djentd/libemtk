@@ -19,7 +19,7 @@
 
 import unittest
 
-from ..object_state import ModifierState
+from src.object_state import ModifierState
 
 
 try:
