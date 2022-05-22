@@ -18,12 +18,12 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import unittest
-from ..lists.extended_modifiers_list import ExtendedModifiersList
-from ..dummy_modifiers import DummyBlenderObj
-from ..dummy_modifiers import DummyBlenderModifier
-from ..clusters.cluster_trait import ClusterTrait
-from ..clusters.modifiers_cluster import ModifiersCluster
-from ..clusters.clusters_layer import ClustersLayer
+from src.lists.extended_modifiers_list import ExtendedModifiersList
+from src.dummy_modifiers import DummyBlenderObj
+from src.dummy_modifiers import DummyBlenderModifier
+from src.clusters.cluster_trait import ClusterTrait
+from src.clusters.modifiers_cluster import ModifiersCluster
+from src.clusters.clusters_layer import ClustersLayer
 
 try:
     import bpy
