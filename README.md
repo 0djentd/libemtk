@@ -13,11 +13,7 @@ There are some simple unittests for basic operations.
 
 # Installation
 Linux:
-```
-mkdir -p ~/.config/blender/3.1/scripts/modules
-cp -r libemtk ~/.config/blender/3.1/scripts/modules
-```
-Or install through `pip` for blender's python.
+Symlink `~/.config/blender/3.1/scripts/modules/modal_shortcuts` to `src`
 
 Windows:
 idk
