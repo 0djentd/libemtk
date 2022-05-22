@@ -13,7 +13,7 @@ There are some simple unittests for basic operations.
 
 # Installation
 Linux:
-Symlink `~/.config/blender/3.1/scripts/modules/modal_shortcuts` to `src`
+Symlink `~/.config/blender/3.1/scripts/modules/libemtk` to `src`
 
 Windows:
 idk
