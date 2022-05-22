@@ -5,7 +5,7 @@ This thing provides new level of abstraction for _Blender_ modifiers stack.
 
 Library name is not final and probably will be changed on release.
 
-_libemtk_ is designed to be used with _EMTK_.
+_libemtk_ is designed to be used with [_EMTK_](https://github.com/0djentd/emtk).
 
 Most classes and methods have docstrings.
 
