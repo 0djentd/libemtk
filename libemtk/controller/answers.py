@@ -28,7 +28,7 @@ except ModuleNotFoundError:
     Modifier = DummyBlenderModifier
     _WITH_BPY = False
 
-from .actions import ClustersAction, ClusterRequest, ClustersCommand
+from .actions import ClusterRequest, ClustersAction, ClustersCommand
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

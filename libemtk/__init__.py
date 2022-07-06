@@ -17,11 +17,11 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-from .clusters.modifiers_cluster import ModifiersCluster
 from .clusters.clusters_layer import ClustersLayer
+from .clusters.modifiers_cluster import ModifiersCluster
 from .dummy_modifiers import DummyBlenderObj
-from .sorting_rule import SortingRule
 from .lists.extended_modifiers_list import ExtendedModifiersList
+from .sorting_rule import SortingRule
 
 __all__ = [
     ExtendedModifiersList,

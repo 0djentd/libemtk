@@ -17,17 +17,17 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-import json
 import dataclasses
+import json
 import logging
 
 from ..lists.modifiers_list import ModifiersList
-from ..lists.traits.clusters.clusters_list import ClustersListTrait
-from ..lists.traits.clusters.sortable_clusters_list\
-    import SortableClustersListTrait
 from ..lists.traits.clusters.active_cluster import ActiveClusterTrait
-from .cluster_trait import ClusterTrait
+from ..lists.traits.clusters.clusters_list import ClustersListTrait
+from ..lists.traits.clusters.sortable_clusters_list import \
+    SortableClustersListTrait
 from ..object_state import ObjectState
+from .cluster_trait import ClusterTrait
 from .modifiers_cluster import ModifiersCluster, ModifiersClusterState
 
 try:

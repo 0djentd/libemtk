@@ -17,14 +17,14 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-import json
-import dataclasses
-import logging
 import copy
+import dataclasses
+import json
+import logging
 
-from .cluster_trait import ClusterTrait
 from ..lists.modifiers_list import ModifiersList
-from ..object_state import ObjectState, ModifierState
+from ..object_state import ModifierState, ObjectState
+from .cluster_trait import ClusterTrait
 
 try:
     import bpy

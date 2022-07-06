@@ -18,23 +18,20 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import copy
+import dataclasses
 import json
 import logging
-import dataclasses
 
+from ..clusters.modifiers_cluster import ModifiersCluster
+from ..controller.answers import ActionDefaultRemove
+from ..controller.clusters_controller import ClustersController
+from ..object_state import ModifierState, ObjectState
+from ..parser import ClustersParser
+from ..utils.modifiers import get_modifier_state, restore_modifier_state
 from .modifiers_list import ModifiersList
+from .traits.clusters.active_cluster import ActiveClusterTrait
 from .traits.clusters.clusters_list import ClustersListTrait
 from .traits.clusters.sortable_clusters_list import SortableClustersListTrait
-from .traits.clusters.active_cluster import ActiveClusterTrait
-
-from ..object_state import ObjectState
-from ..clusters.modifiers_cluster import ModifiersCluster
-
-from ..parser import ClustersParser
-from ..controller.clusters_controller import ClustersController
-from ..controller.answers import ActionDefaultRemove
-from ..utils.modifiers import get_modifier_state, restore_modifier_state
-from ..object_state import ModifierState
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)

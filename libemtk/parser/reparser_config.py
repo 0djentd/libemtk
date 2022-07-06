@@ -26,10 +26,10 @@ ones used before serialization.
 
 # TODO: dont bother using this thing for now.
 
-import logging
 import collections
-import json
 import dataclasses
+import json
+import logging
 
 try:
     import bpy
@@ -41,7 +41,6 @@ except ModuleNotFoundError:
     _WITH_BPY = False
 
 from ..utils.modifier_prop_types import get_all_editable_props
-
 
 logger = logging.getLogger(__package__)
 logger.setLevel(logging.DEBUG)

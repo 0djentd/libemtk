@@ -19,22 +19,13 @@
 
 import logging
 
-from ..controller.actions import (
-    ClustersAction,
-    ClustersCommand,
-    ClustersBatchCommand,
-)
-
-from ..controller.answers import (
-    ClusterActionAnswer,
-    ActionDefaultRemove,
-    ActionDefaultApply,
-    ActionDefaultMove,
-    ActionDefaultDeconstuct
-)
-
-from .utils import check_if_removed, check_obj_ref
+from ..controller.actions import (ClustersAction, ClustersBatchCommand,
+                                  ClustersCommand)
+from ..controller.answers import (ActionDefaultApply, ActionDefaultDeconstuct,
+                                  ActionDefaultMove, ActionDefaultRemove,
+                                  ClusterActionAnswer)
 from .selection import Selection, unwrap_obj_ref
+from .utils import check_if_removed, check_obj_ref
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)

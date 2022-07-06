@@ -18,19 +18,15 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import collections
-import logging
 import dataclasses
 import json
+import logging
 
-from ....object_state import _get_object_state_subclass_by_name
-from ....object_state import _remove_type_name_from_dict
-from ....object_state import _add_type_name_to_dict
-
+from ....controller.actions import ClustersAction, ClustersCommand
 from ....controller.answers import ActionDefaultDeconstuct
-from ....controller.actions import (
-    ClustersAction,
-    ClustersCommand,
-)
+from ....object_state import (_add_type_name_to_dict,
+                              _get_object_state_subclass_by_name,
+                              _remove_type_name_from_dict)
 from ...utils import check_if_removed
 
 logger = logging.getLogger(__name__)

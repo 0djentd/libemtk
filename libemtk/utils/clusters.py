@@ -17,9 +17,9 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-import logging
-import json
 import copy
+import json
+import logging
 
 try:
     import bpy
@@ -28,8 +28,8 @@ except ModuleNotFoundError:
     # from ....dummy_modifiers import DummyBlenderModifier
     _WITH_BPY = False
 
-from ..clusters.modifiers_cluster import ModifiersCluster
 from ..clusters.clusters_layer import ClustersLayer
+from ..clusters.modifiers_cluster import ModifiersCluster
 
 _cluster_utils_type_checks = True
 

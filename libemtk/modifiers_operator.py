@@ -25,15 +25,13 @@ try:
 except ModuleNotFoundError:
     _WITH_BPY = False
 
-from .lists.extended_modifiers_list import ExtendedModifiersList
-
 from .clusters.cluster_trait import ClusterTrait
-from .clusters.modifiers_cluster import ModifiersCluster
 from .clusters.clusters_layer import ClustersLayer
-
+from .clusters.modifiers_cluster import ModifiersCluster
+from .lists.extended_modifiers_list import ExtendedModifiersList
 from .utils.clusters import (get_cluster_types_definitions_from_settings,
-                             save_cluster_type_definition_to_settings,
-                             instantiate_clusters_from_definitions)
+                             instantiate_clusters_from_definitions,
+                             save_cluster_type_definition_to_settings)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)

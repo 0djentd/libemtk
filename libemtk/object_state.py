@@ -17,10 +17,11 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-import logging
-import json
 import collections
 import dataclasses
+import json
+import logging
+
 # import copy
 
 try:

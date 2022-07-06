@@ -29,14 +29,9 @@ except ModuleNotFoundError:
     Modifier = DummyBlenderModifier
     _WITH_BPY = False
 
-from .actions import (
-    ClusterRequest,
-    ClustersAction,
-    ClustersCommand,
-    ClustersBatchCommand
-)
-
 from ..lists.traits.clusters.clusters_list import ClustersListTrait
+from .actions import (ClusterRequest, ClustersAction, ClustersBatchCommand,
+                      ClustersCommand)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)

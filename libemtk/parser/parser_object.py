@@ -30,7 +30,6 @@ except ModuleNotFoundError:
 from ..clusters.cluster_trait import ClusterTrait
 from ..clusters.default_modifier_cluster import DefaultModifierCluster
 
-
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 # logger.setLevel(logging.DEBUG)
