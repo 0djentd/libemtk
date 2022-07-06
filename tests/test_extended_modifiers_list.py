@@ -34,7 +34,12 @@ except ModuleNotFoundError:
 # TODO: rework this tests and create different files for different modules.
 
 MODIFIERS_DATA = [
-    ('Bevel6', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
+    ('Bevel', 'BEVEL'),
     ('Array', 'ARRAY'),
     ('TopBevel', 'BEVEL'),
     ('Bevel5', 'BEVEL'),
