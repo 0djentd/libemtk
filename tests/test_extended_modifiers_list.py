@@ -18,12 +18,12 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import unittest
-from libemtk.lists.extended_modifiers_list import ExtendedModifiersList
-from libemtk.dummy_modifiers import DummyBlenderObj
-from libemtk.dummy_modifiers import DummyBlenderModifier
+
 from libemtk.clusters.cluster_trait import ClusterTrait
-from libemtk.clusters.modifiers_cluster import ModifiersCluster
 from libemtk.clusters.clusters_layer import ClustersLayer
+from libemtk.clusters.modifiers_cluster import ModifiersCluster
+from libemtk.dummy_modifiers import DummyBlenderModifier, DummyBlenderObj
+from libemtk.lists.extended_modifiers_list import ExtendedModifiersList
 
 try:
     import bpy

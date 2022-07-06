@@ -21,7 +21,6 @@ import unittest
 
 from libemtk.object_state import ModifierState
 
-
 try:
     import bpy
     _WITH_BPY = True

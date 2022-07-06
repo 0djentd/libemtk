@@ -18,6 +18,7 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import unittest
+
 from libemtk.clusters.modifiers_cluster import ModifiersCluster
 
 
