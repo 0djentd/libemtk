@@ -29,9 +29,7 @@ except ModuleNotFoundError:
 
 from ..clusters.cluster_trait import ClusterTrait
 from ..clusters.default_modifier_cluster import DefaultModifierCluster
-from ..utils import libemtk_VERSION
 
-CLUSTERS_PARSER_VERSION = (0, 1, 0)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
@@ -678,8 +676,6 @@ class ClustersParser():
             logger.debug("===================================")
             logger.debug("       CLUSTERS PARSER LOG")
             logger.debug("===================================")
-            logger.debug(f"libemtk_VERSION: {libemtk_VERSION}")
-            logger.debug(f"CLUSTERS_PARSER_VERSION: {CLUSTERS_PARSER_VERSION}")
             logger.debug("Modifiers to parse:")
             logger.debug(modifiers_to_parse)
             logger.debug(" ")
