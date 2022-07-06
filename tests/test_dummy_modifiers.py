@@ -18,7 +18,7 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import unittest
-from src.dummy_modifiers import DummyBlenderObj
+from libemtk.dummy_modifiers import DummyBlenderObj
 
 
 class DummyModifiersTests(unittest.TestCase):

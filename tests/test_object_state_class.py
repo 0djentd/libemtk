@@ -19,7 +19,7 @@
 
 import unittest
 
-from src.object_state import ModifierState
+from libemtk.object_state import ModifierState
 
 
 try:

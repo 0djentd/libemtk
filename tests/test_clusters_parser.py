@@ -18,7 +18,7 @@
 # ##### END GPL LICENSE BLOCK #####
 
 import unittest
-from src.clusters.modifiers_cluster import ModifiersCluster
+from libemtk.clusters.modifiers_cluster import ModifiersCluster
 
 
 class ClustersSerializationClusterTests(
