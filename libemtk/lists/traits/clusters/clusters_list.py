@@ -367,10 +367,11 @@ class ClustersListState():
 
     @staticmethod
     def _get_items_data(obj):
-        result = []
-        for x in obj:
-            result.append(get_object_data(x))
-        return result
+        raise NotImplementedError
+        # result = []
+        # for x in obj:
+        #     result.append(get_object_data(x))
+        # return result
 
     @staticmethod
     def _get_data(obj):

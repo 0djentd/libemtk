@@ -20,12 +20,9 @@
 import copy
 import logging
 
-from ...utils import check_if_removed, check_obj_ref
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
-
-# TODO: remove this mixin?
 
 
 class ActiveClusterTrait():

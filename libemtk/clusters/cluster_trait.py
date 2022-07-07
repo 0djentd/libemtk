@@ -51,8 +51,8 @@ class ClusterTrait():
     # Variables (constants) that are defined in constructor and
     # should not be changed.
     # They stored in ClusterDefinition.
-    # If you need to somehow change this.instance_data (for example, change type
-    # of modifier),
+    # If you need to somehow change this.instance_data
+    # (for example, change type of modifier),
     # its better to create new cluster, reparse modifiers,
     # and copy other.instance_data.
     default_data: dict

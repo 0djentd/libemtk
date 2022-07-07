@@ -201,3 +201,7 @@ class ModifierState(ObjectState):
             if getattr(obj, x) != y:
                 return False
         return True
+
+
+class ListObjectState():
+    pass

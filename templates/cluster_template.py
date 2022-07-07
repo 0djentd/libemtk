@@ -67,7 +67,7 @@ class SampleCluster(ModifiersCluster):
         # Increase this cluster's first modifier segments
         # count every time cluster moved up in list.
         if direction == 'UP':
-            self._data[0]segments += 1
+            self._data[0].segments += 1
         elif direction == 'DOWN':
             self._data[0].segments -= 1
         return True
