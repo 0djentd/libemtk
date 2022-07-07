@@ -284,6 +284,7 @@ MODIFIERS_DATA = [
 
 
 def add_modifiers(obj, count) -> list[DummyBlenderModifier]:
+    """Creates list of modifiers."""
     mods = []
     if count > len(MODIFIERS_DATA):
         raise ValueError
@@ -296,6 +297,8 @@ def add_modifiers(obj, count) -> list[DummyBlenderModifier]:
 
 
 class ExtendedModifiersListTests():
+    """ExtendedModifiersList tests."""
+
     def setUp(self):
         self.o = DummyBlenderObj()
         add_modifiers(self.o, 1)
@@ -529,9 +532,7 @@ class ExtendedModifiersListTests():
 
 class DifferentModifiersTests(
         ExtendedModifiersListTests, unittest.TestCase):
-    """
-    No complex modifiers clusters.
-    """
+    """No complex modifiers clusters."""
 
     def setUp(self):
         self.o = DummyBlenderObj()
@@ -541,9 +542,7 @@ class DifferentModifiersTests(
 
 class LoadClustersTests(
         ExtendedModifiersListTests, unittest.TestCase):
-    """
-    Saving and loading clusters.
-    """
+    """Saving and loading clusters."""
 
     def setUp(self):
         self.o = DummyBlenderObj()
@@ -573,9 +572,7 @@ class LoadClustersTests(
 @unittest.skip
 class ProgressiveLoadClustersTests(
         ExtendedModifiersListTests, unittest.TestCase):
-    """
-    Saving and loading clusters.
-    """
+    """Saving and loading clusters."""
 
     def setUp(self):
         self.o = DummyBlenderObj()
@@ -602,11 +599,8 @@ class ProgressiveLoadClustersTests(
             self.old_clusters_state_2, self.e.get_clusters_state())
 
 
-class LayersTests(
-        ExtendedModifiersListTests, unittest.TestCase):
-    """
-    Cluster layers and complex clusters.
-    """
+class LayersTests(unittest.TestCase):
+    """Cluster layers and complex clusters."""
 
     def setUp(self):
         self.o = DummyBlenderObj()
@@ -671,9 +665,7 @@ class LayersTests(
 
 
 class MovingTests(unittest.TestCase):
-    """
-    Cluster layers and complex clusters.
-    """
+    """Cluster layers and complex clusters."""
 
     def setUp(self):
         self.o = DummyBlenderObj()
