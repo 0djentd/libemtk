@@ -1,5 +1,7 @@
 ![PyPI](https://img.shields.io/pypi/v/libemtk)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/0djentd/libemtk?include_prereleases)
 [![Python package](https://github.com/0djentd/libemtk/actions/workflows/python-package.yml/badge.svg)](https://github.com/0djentd/libemtk/actions/workflows/python-package.yml)
+![GitHub Repo stars](https://img.shields.io/github/stars/0djentd/libemtk?style=social)
 
 libEMTK, Extended Modifiers Tool Kit (library).
 =======================================
